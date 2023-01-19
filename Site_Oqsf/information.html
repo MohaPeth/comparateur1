@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="informations .css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Formulaire  OQSF-SN</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+ 
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Others</span>
+            </label>
+          </div>
+        </div>
+        <div>
+          <input type="radio" name="profil" id="dot-1">
+          <input type="radio" name="profil" id="dot-2">
+
+          <span class="profil-title">Quel est votre profil ?</span>
+        <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="profil">PME</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="profil">PARTICULIER</span>
+          </label>
+        </div>
+         <span class="profil-title">Quel est votre tranche d'age ?</span>
+        <div class="category">
+            <select id="age" name="age">
+                <option value="18-24">18-24</option>
+                <option value="25-34">25-34</option>
+                <option value="35-44">35-44</option>
+                <option value="45-54">45-54</option>
+                <option value="55+">55+</option>
+            </select>
+         </div>
+
+        <div class="button">
+          <input type="submit" value="Envoyer">
+        </div>
+        <small>&copy; Peter Essongue</small>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
